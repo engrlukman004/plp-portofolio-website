@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    flex: 1;
+    background-color: rgb(62, 62, 136);
+    justify-content: space-between;
+    height: 100px;
+    z-index: 100;
+    align-items: center;
+    display: flex;
+    padding: 2% 3%;
+    position: fixed;
+    top: 0;
+    
+}
+
+.header a{
+    color: white;
+    margin: 0 20px;
+    
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    color: yellow;
+    text-shadow: 0 0 25px yellow,
+                0 0 50px red;
+    transform: scale(1.1);
+}
+
+span{
+    color: yellow;
+}
+
+a:hover{
+    color: yellow;
+    text-shadow: 0 0 25px yellow,
+    0 0 50px red;
+    transform: scale(1.1);
+}
+
+.contact{
+    border: 2px solid transparent;
+    padding: 10px 100px 10px 0;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: 0,3s ease;
+    
+}
+
+.home{
+    display: inline-block;
+    background: rgb(241 241 241);
+    width: 100%;
+    
+}
+
+
+.home .btnimg{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 ;
+    flex: 1;
+}
+
+.home #btn-1, #btn-2{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+#btn-1, #btn-2{
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    
+    
+}
+
+#btn-1:hover{
+    color: yellow;
+    text-shadow: 0 0 25px yellow,
+                0 0 50px red;
+    transform: scale(1.1);
+    background-color: rgb(62, 62, 136);
+}
+
+
+#btn-2:hover{
+    color: rgb(62, 62, 136);
+    text-shadow: 0 0 25px rgb(62, 62, 136),
+                0 0 50px red;
+    transform: scale(1.1);
+    background-color: yellow;
+}
+.home #img-1{
+    width:50% ;
+    height: 40%;
+    margin: 0 0 0 10%; 
+
+}
+
+.home .home-content{
+    width: 100%;
+    text-align: center;
+    padding: 10% 5%  5% 0 ;
+
+}
+
+.home h1{
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.home img{
+    width: 100%;
+    border-radius: 500px;
+
+
+}
+
+.home .home-content #span-1{
+    color: red;
+}
+
+
+.home .home-content  {
+    margin: 20px;
+
+}
+
+@media(min-width: 768px){
+    .home-page{
+        flex: 1 1 30%;
+    }
+}
+
+@media(max-width: 768px){
+    .home-page{
+        flex: 1 1 45%;
+    }
+}
+
+@media(max-width: 480px){
+    .home-page{
+        flex: 1 1 100%;
+    }
+}
+
+.final{
+    width: 100%;
+    display: inline-block;
+    background-color:  rgb(62, 62, 136) ;
+    color: white;
+}
+#about{
+    text-align: center;
+}
+.skill-projects{
+    display: flex;
+    align-items: center;
+    padding: 0 100px ;
+}
+
+h1{
+    text-align: center;
+    margin-top: 3%;
+}
+.skill-projects #skill{
+    margin: 10px 10px;
+}
+
+#project{
+    margin-left: 200px;
+}
+#project a{
+    color: yellow;
+    transition: 0.3s ease;
+    
+    
+}
+
+#project a:hover{
+    color: red;
+    text-shadow: 0 0 25px yellow,
+                0 0 50px red;
+    transform: scale(1.1);
+    background-color: rgb(62, 62, 136);
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color:rgb(62, 62, 136);
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px sold orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px yellow, 0 0 10px red;
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: red;
+    border: 2px solid red;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li a:hover{
+    border-bottom: 3px solid red;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+
+
+
+
